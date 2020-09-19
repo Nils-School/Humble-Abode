@@ -1,0 +1,117 @@
+/* gives the whole body a background */
+body {
+	max-width: 100%;
+	height: auto;
+	background: url('http://localhost/CI-project/assets/images/space.png') no-repeat center fixed;
+	background-size: cover;
+}
+/* Footer.php */
+
+/* Home.php */
+
+.time {
+	color: rgb(255, 255, 255);
+	font-style: Helvetica, sans-serif;
+	text-align: center;
+	margin-top: 15%;
+	font-size: 4em;
+}
+
+
+#day {
+	color: rgb(255, 255, 255);
+	font-style: Helvetica, sans-serif;
+	text-align: center;
+	font-size: 120%;
+}
+
+
+#date {
+	color: rgb(255, 255, 255);
+	font-style: Helvetica, sans-serif;
+	text-align: center;
+
+	font-size: 120%;
+}
+
+
+/* News.php */
+/* gives the row a height and width 100% so i dont see the scrollthingie */
+.row {
+	width: 100%;
+	height: 100%;
+}
+
+
+#small-time-block {
+	background-color: rgba(0, 0, 0, 0.774);
+	margin-top: 5%;
+}
+
+
+.small-time {
+	color: rgb(255, 255, 255);
+	font-style: Helvetica, sans-serif;
+	text-align: center;
+	font-size: 2em;
+}
+
+
+#newscollum {
+	background-color: rgba(255, 255, 255, 0.075);
+}
+
+
+#weerheader {
+	color: white;
+	text-align: center;
+	font-size: 1.2em;
+	background-color: rgba(0, 0, 0, 0.774);
+
+}
+
+#weerframe {
+	margin-left: 1em;
+	margin-right: 1em;
+
+}
+
+/* About.php */
+#about {
+	height: 100%;
+	background-color: rgba(255, 255, 255, 0.075);
+
+}
+
+#about-header {
+	color: white;
+	margin-top: 1em;
+	padding-bottom: 0.3em;
+	padding-left: 1em;
+	background-color: rgba(0, 0, 0, 0.904);	
+}
+#about-text {
+	color: whitesmoke;
+}
+/* Register.php */
+#register-box {
+	height: 98%;
+	background-color: rgba(255, 255, 255, 0.075);	
+}
+/* Login.php */
+#login-box {
+	height: 98%;
+	background-color: rgba(255, 255, 255, 0.075);	
+}
+
+#login-form {
+	color: whitesmoke;
+	font-style: Helvetica, sans-serif;
+	margin-left: 12.5%;
+	/* margin-right: 50%; */
+	width: 75%;
+}
+
+#login-button {
+	width: 97%;
+}
