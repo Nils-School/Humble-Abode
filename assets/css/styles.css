@@ -2,7 +2,7 @@
 body {
 	max-width: 100%;
 	height: auto;
-	background: url('http://localhost/CI-project/assets/images/space.png') no-repeat center fixed;
+	background: url('http://localhost/NilsSchnitzel/Humble-Abode/assets/images/space.png') no-repeat center fixed;
 	background-size: cover;
 }
 /* Footer.php */
@@ -97,6 +97,19 @@ body {
 #register-box {
 	height: 98%;
 	background-color: rgba(255, 255, 255, 0.075);	
+}
+
+
+#register-form {
+	color: whitesmoke;
+	font-style: Helvetica, sans-serif;
+	margin-left: 12.5%;
+	/* margin-right: 50%; */
+	width: 75%;
+}
+
+#register-button {
+	width: 97%;
 }
 /* Login.php */
 #login-box {
